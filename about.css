@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("pic3.3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: black;
+}
+nav{
+    /* background-color:rgba(128,128,128, 0.5); */
+    background-color:rgba(0,0,0, 0.3);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: 50px;
+    line-height: 45px;
+    padding-right: 10px;
+}
+nav a{
+    color: aliceblue;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 0.4s ease-out;
+}   
+nav a:hover{
+    color: red;
+    /* color: maroon; */
+}
+.content h1,h3{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+}

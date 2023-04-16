@@ -1,0 +1,47 @@
+body{
+    background-image: url("helmet2cpy.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.login{
+    border-radius: 15px;
+    width: 450px;
+    text-align: center;
+    height: 600px;
+    /* margin-top: 10vh; */
+    margin-left: auto;
+    margin-right: 150px;
+    background-image: linear-gradient(rgb(0, 0, 0,0.8),rgb(0, 0, 0,0.5),rgb(255, 0, 0,0.3));
+}
+#email, #pass{
+    width:250px;
+    height:30px;
+    margin:30px;
+    border: 3px solid maroon;
+    border-radius: 20px;
+}
+body>h1{
+    display: inline-block;
+    color:white;
+    font-family: monospace;
+    font-size: 172px;
+    margin-top: 100px;
+    margin-left: 50px;
+    align-self: center;
+}
+.login>h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    color:white
+}
+footer{
+    margin-top: auto;
+    margin-right:auto;
+    margin-bottom:20px;
+}

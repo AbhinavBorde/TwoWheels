@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: url("pic3.3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: black;   */
+    background-color: black;
+}
+nav{
+    background-color:rgba(128,128,128,0.5);
+    /* background-color:rgba(0,0,0, 0.2); */
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: 50px;
+    line-height: 45px;
+    padding-right: 10px;
+}
+nav a{
+    color: aliceblue;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 0.4s ease-out;
+}   
+nav a:hover{
+    color: red;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.prod1{
+    /* display: inline-block; */
+    width: 300px;
+    border: 2px solid grey;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 10px 5px 15px red;
+    border-radius: 10px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.prod1 img{
+    width: 90%;
+}
+.prod1>.cart{
+    /* display: inline; */
+    border: 1px solid grey;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 4px;   
+}
+.prod1>.cart:hover{
+    background-color: rgb(61, 60, 60);
+}
