@@ -1,6 +1,8 @@
 # TwoWheels
 A static website that lets you buy bike accessories.
 
+Some screenshots of the website
+
 Homepage
 ![image](https://user-images.githubusercontent.com/90043500/232276544-67cae11a-80ca-4f03-8d55-32b195c8deeb.png)
 
